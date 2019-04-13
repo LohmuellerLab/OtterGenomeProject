@@ -2,7 +2,7 @@
 
 *Scripts to align 1:1 orthologs, filter the alignments, and detect selection using codeml's branch-site test* 
 *Details in SI methods of Beichman et al. (2019)*
-
+- **paml_generic_ctl_files:** control (.ctl) files for running the branch-site test
 - **step 1**: evaluate results from proteinOrtho and pull out 1:1 orthologs  
 - **step 2**: set up directory structure for codeml analyses  
 - **step 3**: get transcript sequences for each cluster of 1:1 orthologs  
