@@ -1,7 +1,7 @@
 # Sea otter and giant otter genome project scripts
-*These scripts were used to generate the analyses for Beichman et al. (2019).*
-*Details of the methods are in the supplementary materials of the paper.*
-*Contact: Annabel Beichman <annabel.beichman[at]gmail.com>*
+*These scripts were used to generate the analyses for Beichman et al. (2019).*  
+*Details of the methods are in the supplementary materials of the paper.*  
+*Contact: Annabel Beichman <annabel.beichman[at]gmail.com>*  
 Note: these scripts are internal to this project, 
 based on my file systems and directory organization.
 Feel free to adapt and reuse in your own work with the caveat 
