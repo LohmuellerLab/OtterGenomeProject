@@ -1,0 +1,9 @@
+Note:
+VEP is used for different things
+
+VEP --> high/domain/canonical --> this is used for filtering out from paml results, for intersecting
+w/ pseudopipe and for go enrichment
+
+VEP --> cds seqs --> by category (and including shared variants between elut/pbra) is used for genetic load calcs
+of synoymous and nonsynonymous alleles
+

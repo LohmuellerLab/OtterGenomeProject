@@ -1,0 +1,81 @@
+input files:         ["/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr10.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr11.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr12.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr13.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr14.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr15.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr16.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr17.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr18.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr19.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr1.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr20.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr2.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr3.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr4.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr5.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr6.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr7.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr8.txt", "/u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-input/bootstrap_number_18/bootstrap_multihetsep.chr9.txt"]
+maxIterations:       20
+mutationRate:        0.000281673
+recombinationRate:   7.04182e-05
+subpopLabels:        [0, 0]
+timeSegmentPattern:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+nrThreads:           10
+nrTtotSegments:      40
+verbose:             false
+outFilePrefix:       /u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-output/bootstrap_number_18.out
+naiveImplementation: false
+hmmStrideWidth:      1000
+fixedPopSize:        false
+fixedRecombination:  false
+initialLambdaVec:    []
+directedEmissions:   false
+skipAmbiguous:       false
+indices:             [0, 1]
+logging information written to /u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-output/bootstrap_number_18.out.log
+loop information written to /u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-output/bootstrap_number_18.out.loop.txt
+final results written to /u/flashscratch/a/ab08028/otters/vcfs/vcf_20171206_50_250DPFilter/msmcAnalysis/bootstraps/bootstrap-output/bootstrap_number_18.out.final.txt
+[1/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [16/20] Expectation Step, log likelihood: -5.68176e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 2178.02, after:2172.94
+[2/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [16/20] Expectation Step, log likelihood: -5.67338e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 2268.3, after:2266.18
+[3/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [15/20] Expectation Step, log likelihood: -5.66965e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 2398.38, after:2397.1
+[4/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [19/20] Expectation Step, log likelihood: -5.66729e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 2542.53, after:2541.59
+[5/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [17/20] Expectation Step, log likelihood: -5.66551e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 2685.59, after:2684.82
+[6/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [17/20] Expectation Step, log likelihood: -5.66404e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 2824.97, after:2824.31
+[7/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [14/20] Expectation Step, log likelihood: -5.66277e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 2960.83, after:2960.26
+[8/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [14/20] Expectation Step, log likelihood: -5.66165e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 3093.63, after:3093.11
+[9/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [15/20] Expectation Step, log likelihood: -5.66065e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 3223.68, after:3223.21
+[10/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [16/20] Expectation Step, log likelihood: -5.65974e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 3351.21, after:3350.78
+[11/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [15/20] Expectation Step, log likelihood: -5.6589e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 3476.4, after:3476
+[12/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [16/20] Expectation Step, log likelihood: -5.65813e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 3599.36, after:3598.99
+[13/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [15/20] Expectation Step, log likelihood: -5.65741e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 3720.2, after:3719.86
+[14/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [15/20] Expectation Step, log likelihood: -5.65675e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 3839.02, after:3838.7
+[15/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [19/20] Expectation Step, log likelihood: -5.65613e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 3955.89, after:3955.59
+[16/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [16/20] Expectation Step, log likelihood: -5.65554e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 4070.89, after:4070.61
+[17/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [14/20] Expectation Step, log likelihood: -5.655e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 4184.1, after:4183.83
+[18/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [16/20] Expectation Step, log likelihood: -5.65448e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 4295.57, after:4295.32
+[19/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [15/20] Expectation Step, log likelihood: -5.65399e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 4405.38, after:4405.14
+[20/20] Baumwelch iteration
+  * [1/20] Expectation Step  * [17/20] Expectation Step, log likelihood: -5.65352e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 4513.58, after:4513.36

@@ -1,0 +1,12 @@
+### Step 4_c Visualize How to:
+
+# four categories:
+# N+C+ : probably not truncated, pgene for another reason
+# N+C- : C missing, n complete : truncated
+# N-C+ : N missing, C complete: truncated
+# N-C- : NC missing, likely truncated (could potentially be a pgene, look carefully)
+# So start by looking at the N+ categories: hide all N-incomplete genes
+
+# Then look at N- categories: hide all N-complete genes.
+
+# check that things add up. Note that there may be duplicated entries, and that Human will add +1

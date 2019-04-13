@@ -1,0 +1,4 @@
+total_Coding_Callable_elut 30680418
+total_Coding_Callable_elut2 30432836
+total_Coding_Callable_pbra 30070013
+average_Coding_Callable 30394422.3333333
