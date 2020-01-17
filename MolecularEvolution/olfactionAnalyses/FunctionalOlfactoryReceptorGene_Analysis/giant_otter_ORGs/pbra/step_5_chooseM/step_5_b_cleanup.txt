@@ -1,0 +1,3 @@
+# it doesn't like human ORJ sequence (maybe because of upper lower case?)
+# so you have to remove its header (going to add it back in with other outgroups in next step)
+# do with nano

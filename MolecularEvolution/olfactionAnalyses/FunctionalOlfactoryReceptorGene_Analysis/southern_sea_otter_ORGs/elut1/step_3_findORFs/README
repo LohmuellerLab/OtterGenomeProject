@@ -1,0 +1,3 @@
+# there is a difference between the number of ORFs in the FULLINFO and table and in the final fasta
+because some sequences have gaps in them ("nnn") and so are excluded in the final script, even if an ORF is logged as being 'found'
+# as  long as you discard these later it should be okay, because they won't intersect with any of your final functional ORs.

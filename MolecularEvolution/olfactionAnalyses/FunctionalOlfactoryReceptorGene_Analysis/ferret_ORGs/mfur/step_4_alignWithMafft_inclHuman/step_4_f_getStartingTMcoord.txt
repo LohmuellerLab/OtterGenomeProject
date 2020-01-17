@@ -1,0 +1,2 @@
+## final step of step4: 
+# look at final alignment in jalview and get starting coordinate of first TM domain to put into step5 script
